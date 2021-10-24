@@ -65,3 +65,17 @@ a:hover {
 ul {
     padding: 0;
 } 
+
+
+
+
+
+section.overview-hero img {
+    width: 400px;
+}
+
+section.overview-hero {
+    background-color: #E2E8F0;
+    padding: 5%;
+    height: 300px;
+}
