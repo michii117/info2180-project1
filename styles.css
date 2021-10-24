@@ -136,3 +136,32 @@ section.learn-about h3 {
 .card-body {
     padding: 15px;
 }
+
+
+
+
+
+section.testing {
+    height: 350px;
+    background-color: #4A5568;
+    color: #ffffff;
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a.btn {
+    color: #ffffff;
+    text-decoration: auto;
+    background-color: #48BB78;
+    padding: 15px 25px;
+    border-radius: 5px;
+}
+
+section.testing> .container {
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
