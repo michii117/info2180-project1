@@ -165,3 +165,40 @@ section.testing> .container {
     justify-content: center;
     align-items: center;
 }
+
+
+
+
+article> img{
+    width:200px;
+    border-radius: 100%;
+    margin-right: 50px;
+}
+
+article{
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:60px 0px;
+}
+
+
+.stories> .container> h2 {
+    margin-top: 60px; 
+    color: #5A67D8;
+    font-size: 24px;
+}
+
+
+.article-body> p> a {
+    color: #5A67D8;
+    text-decoration: none;
+}
+
+
+
+.article-body> h3 {
+    font-size: 18px;
+    color: #000000;
+}
