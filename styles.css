@@ -202,3 +202,81 @@ article{
     font-size: 18px;
     color: #000000;
 }
+
+
+
+
+
+.message {
+    font-size: 14px;
+    padding: 10px;
+    color: yellow;
+}
+
+
+section.newsletter {
+    height: 250px;
+    padding: 50px 0px;
+    background-color: #48BB78;
+    color: #ffffff;
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section.newsletter> .container {
+    width:480px;
+}
+
+
+
+section.newsletter h3 {
+    color: #ffffff;
+    text-align: center;
+}
+
+
+input#email {
+    width: 300px;
+    height: 60px;
+    padding: 0px 20px;
+    border: none;
+    font-family: -apple-system,BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "NotoSans", sans-serif;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+button.btn {
+    width: 140px;
+    height: 60px;
+    border: none;
+    color: #ffffff;
+    background-color: #5A67D8;
+    font-family: -apple-system,BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "NotoSans", sans-serif;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+
+form {
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section.newsletter p {
+    margin-bottom: 25px;
+}
+
+
+
+footer {
+    height: 50px;
+    background-color: #4A5568;
+    padding: 20px 20px;
+    color: #ffffff;
+}
