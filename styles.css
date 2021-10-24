@@ -79,3 +79,60 @@ section.overview-hero {
     padding: 5%;
     height: 300px;
 }
+
+
+
+
+
+
+
+
+section.learn-about {
+    margin-bottom: 50px;
+}
+
+.testing-desciption {
+    width: 85%;
+}
+
+section.learn-about h2, h3 {
+    color: #48BB78;
+}
+
+section.learn-about h2 {
+    font-size: 24px;
+    margin-top: 60px;
+}
+
+section.learn-about h3 {
+    font-size: 21px;
+    margin-top: 0px;
+}
+
+.card> img {
+    width: 282px;
+    padding: 10px
+}
+
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-gap: 30px;
+}
+
+.card {
+    width: 300px;
+    height: 535px;
+    border: 10px;
+    background-color: #ffffff;
+    filter: drop-shadow(2px 4px 6px #00000022);
+    border: 2px;
+    border-style: solid;
+    border-color: #E2E8F0;
+    border-radius: 5px;
+}
+
+.card-body {
+    padding: 15px;
+}
